@@ -1,0 +1,32 @@
+.HomeBlogallone {
+  margin: auto;
+  background-image: linear-gradient(180deg, #050e5991 0%, #050e5991 100%),
+    url(../../aces/Img/unsplash_QA9fRIi6sFw.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.HomeBlogallonemsmall {
+  width: 81%;
+  margin: auto;
+  max-width: 1500px;
+}
+
+.HomeBlogallonemsmall div h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #ffff;
+}
+
+.HomeBlogallonemsmall div p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+
+  color: #d9d9d9;
+}

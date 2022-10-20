@@ -1,0 +1,76 @@
+.Bubble{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 29%;
+    width: 100%;
+}
+
+.OurServices{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    max-width: 1440px;
+    
+}
+
+.OurServices h5{
+   color: #FF64AE;
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+
+}
+
+.OurServices h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 125%;
+color: #091156;
+
+}
+
+.OurServices p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+color: #8B8B8B;
+}
+
+.OurServicesconten{
+    width: 76%;
+    margin: auto;
+    max-width: 1440px;
+}
+
+
+.OurServicesconten div{
+    flex-wrap: wrap;
+}
+
+.OurServicescontenbig{
+    width: 67%;
+}
+
+
+.OurServicescontensmoll{
+    width: 25%;
+}
+
+
+
+@media (max-width:1350px) {
+    .OurServicescontensmoll{
+        display: none;
+    }
+    .OurServicescontenbig{
+        width: 100%;
+    }
+}

@@ -1,0 +1,150 @@
+.ServicesFAQ {
+  background-image: linear-gradient(180deg, #050e5991 0%, #050e5991 100%),
+    url(../../aces/Img/unsplash_NPjNtTExSJ4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Serviceitem {
+  width: 80%;
+  margin: auto;
+  max-width: 1440px;
+}
+
+.Serviceitem div h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 125%;
+  color: #ffffff;
+}
+
+.Serviceitem div p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+
+  color: #cacaca;
+}
+
+.Serviceitemone {
+  width: 35%;
+}
+
+.Serviceitemone img {
+  width: 127px;
+  height: 127px;
+}
+
+.Serviceitemone h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.ServicesFAQone {
+  width: 80%;
+  margin: auto;
+  max-width: 1440px;
+}
+
+.ServicesFAQone h1 {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 125%;
+  color: #091156;
+}
+
+.ServicesFAQicon {
+  width: 40px;
+  height: 0px;
+  left: 700px;
+  border: 5px solid #ff64ae;
+  margin: auto;
+  margin-top: 2.5%;
+  border-radius: 50px;
+  margin-bottom: 6%;
+}
+
+.faqname {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 2%;
+}
+
+.faqname h3 {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: #091156;
+  width: 85%;
+}
+
+.faqname svg {
+  width: 5%;
+}
+
+.faqconten {
+  display: none;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.faqcontenshow {
+  display: block;
+  border-top: 2px solid #091156;
+  padding-top: 4%;
+  padding-bottom: 6%;
+  background: #f7f7ff;
+  border-radius: 0px 0px 20px 20px;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  overflow: hidden;
+}
+
+.faqcontenshow p {
+  width: 82%;
+  margin: auto;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  padding-top: 2%;
+  color: #8b8b8b;
+}
+
+.Accordion {
+  width: 87%;
+  margin: auto;
+  max-width: 1440px;
+}
+
+@media (max-width: 1173px) {
+  .Serviceitemone {
+    display: none !important;
+  }
+
+  .Serviceitemoneone {
+    margin: auto;
+  }
+}

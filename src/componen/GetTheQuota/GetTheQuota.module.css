@@ -1,0 +1,55 @@
+.GetTheQuota h5 {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    /* identical to box height, or 20px */
+    color: #FF64AE;
+    margin: 0;
+}
+
+.GetTheQuota h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    /* or 45px */
+    color: #091156;
+    width: 100%;
+    
+}
+
+.GetTheQuota p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+}
+
+.GetTheQuota {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    max-width: 1440px;
+    
+}
+
+.GetTheQuotaone{
+    /* background-image: url(../../aces/Img/Bubble1.png);
+    background-repeat: no-repeat; */
+    width: 100%;
+    /* background-size:cover;
+    object-fit: cover;
+    padding-bottom: 10%; */
+}
+
+.GetTheQuota button {
+    width: 316px;
+    height: 58px;
+}

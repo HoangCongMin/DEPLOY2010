@@ -1,0 +1,270 @@
+.navitem {
+    display: flex;
+    margin: 0;
+    height: 50px;
+    list-style: none;
+    width: 581px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a.active::after {
+    content:'+';
+    color: #FFFFFF;
+  }
+
+ .active{
+    color:#FFFFFF
+ } 
+
+ .navbareleven li .active{
+    color:#FFFFFF  
+ }
+
+ a.activemal::after{
+    content:'+';
+    color: #091156;
+ }
+
+ .activemal{
+    color: #091156;
+ }
+
+.navbareleven{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #FFFFFF;
+    width: 80%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.allnapbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(23, 32, 108, 0.8);
+}
+
+
+
+.navbareleven li .activemal::after{
+    color: #FFFFFF;
+}
+
+.navbareleven li .activemal{
+  color: #FFFFFF;
+}
+
+.navbareleven li a{
+    color: #8B8B8B;
+}
+
+ li {
+   list-style-type: none ;
+}
+
+
+
+
+
+
+  
+
+ 
+
+.navlink {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #8B8B8B;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+}
+
+
+.navbar {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    overflow-wrap: break-word;
+    align-items: center;
+    padding-top: 1.5%;
+    color:#091156 ;
+     max-width: 1440px;
+     margin: auto;
+
+}
+
+.allnapbarone{
+    position: fixed;
+    width: 100%;
+}
+
+button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    background: #FF64AE;
+    border-radius: 50px;
+    width: 158px;
+    height: 52px;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+/* mobile */
+
+.nav_bars_btn {
+    width: 28px;
+    height: 28px;
+    color: white;
+    display: none;
+    padding: 10px;
+}
+
+.nav_overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.2s;
+}
+
+.nav_mobile {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: white;
+    margin: 0;
+    transform: translateX(100%);
+    transition: transform linear 0.2s;
+    padding: 1%;
+}
+
+.nav_mobile li a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+    font-size: 1.4rem;
+
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+}
+
+.nav_close {
+    width: 25px;
+    height: 25px;
+    color: #666;
+    /* padding-left: 17rem; */
+}
+
+.nav_input:checked~.nav_overlay {
+    display: block;
+}
+
+.nav_input:checked~.nav_mobile {
+    transform: translateX(0%);
+}
+
+.nav_close svg {
+    width: 25px;
+    height: 25px;
+    color: #8B8B8B;
+}
+
+@media(max-width: 1270px) {
+    .nav_bars_btn {
+        display: block;
+    }
+    .navitem {
+        display: none;
+    }
+    .buttonlogout{
+        display: none;
+    }
+}
+
+@media(max-width: 1024px) {
+    /* .navbar {
+        padding-left: 112px;
+    } */
+}
+
+@media(max-width: 412px) {
+    /* .navbar img {
+        width: 200px;
+        padding-left: 56px;
+    } */
+}
+
+@media (max-width:540px) {
+    /* .navbar {
+        padding-left: 69px;
+    } */
+}
+
+@media (max-width:390px) {
+    /* .navbar {
+        padding-left: 20px;
+    } */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

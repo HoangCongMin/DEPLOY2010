@@ -1,0 +1,228 @@
+.MainServices {
+    
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    
+    /* identical to box height, or 20px */
+    color: #FF64AE;
+}
+
+
+
+
+.backgroundimg{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 190%;
+    background-repeat: no-repeat;
+}
+
+.Learnservices {
+    
+    font-family: 'Poppins' !important ;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 36px !important;
+    /* or 45px */
+    text-align: center;
+    color: #091156;
+
+}
+
+.Porta {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px ;
+    text-align: center;
+    letter-spacing: 0.1em !important;
+    color: #8B8B8B;
+}
+
+.CoreServices {
+    align-items: center;
+    max-width: 1440px;
+    width: 80%;
+    margin: auto;
+   text-align: center;
+}
+
+.Beauty {
+    width: 263px ;
+    height: 37px ;
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 125%;
+    /* or 22px */
+    text-align: center;
+    color: #091156;
+}
+
+.Nonparturient {
+    width: 274px ;
+    height: 80px ;
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center;
+    letter-spacing: 0.1em !important;
+    color: #8B8B8B;
+}
+
+.BoxBacground {
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px 25px #F7F7FF;
+    border-radius: 42px;
+
+}
+
+.BoxBacground:hover {
+    box-shadow:0px 25px 50px 25px #eaedff;
+    transition: all 0.4s ease;
+}
+.BoxSection {
+    
+    max-width: 1440px;
+    margin: auto;
+    width: 80%;
+    flex-wrap: wrap;
+
+}
+
+.Ellipse {
+    width: 166px;
+    height: 166px;
+    padding: 59px 88px;
+}
+
+
+
+
+
+.About {
+    
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    /* identical to box height, or 20px */
+    color: #FF64AE;
+}
+
+.bestbeautyclinic {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 36px !important;
+    line-height: 125% !important;
+    color: #091156;
+}
+
+.Loremipsum {
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    letter-spacing: 0.1em !important;
+    color: #8B8B8B;
+}
+
+.ButtonBG {
+    width: 200px;
+    height: 58.36px;
+}
+
+.WatchVideo {
+   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+    margin-left: 10px;
+}
+
+.Play {
+    width: 49px;
+    height: 49px;
+    padding-left: 44px;
+}
+
+.MoreDetailsButton {
+    display: flex;
+    align-items: center;
+}
+
+.AboutUs {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 12%;
+    width: 80%;
+    
+}
+
+.AboutUsone{
+    width: 60%;
+}
+
+.AboutUstow{
+    width: 40%;
+}
+
+.Animation4 {
+    width: 100%;
+    padding-top: 35px;
+    height: 89%;
+}
+
+.Play{
+    width: 61px;
+    height: 61px;
+}
+
+@media (max-width:1286px) {
+    .Animation4 {
+        display: none;
+    }
+    .AboutUstow{
+        display: none;
+    }
+    .AboutUsone{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .BoxBacground{
+        margin-bottom: 5%;
+        margin: auto;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width:857px) {
+    
+
+    .AboutUs{
+        padding-top: 0 !important;
+    }
+
+    .BoxBacground{
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    
+}
+

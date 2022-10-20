@@ -1,0 +1,43 @@
+.fromlogin {
+    background-image: url(../aces/Img/unsplash_eflLpWC1Geo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fromloginone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25%;
+    width: 30%;
+    background-color: white;
+}
+
+.fromloginone input {
+    border: 2px solid pink;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.fromloginone p {
+    margin-bottom: 15rem;
+    padding-top: 1rem;
+}
+
+.fromloginone12 {
+    margin: 10px;
+}
+
+.fromloginone {
+    text-align: center;
+}
+
+.fromloginone h1 {
+    color: #FF64AE;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    height: 60px;
+}

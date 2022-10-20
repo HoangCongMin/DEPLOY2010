@@ -1,0 +1,194 @@
+    .SiteFooter {
+        background-image: url(../../aces/Img/Footer\ BG-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+        width: 100%;
+    }
+
+    .SiteFootersetup{
+        width: 80% !important;
+        margin: auto;
+        max-width: 1440px;
+    }
+    
+    .SiteFooterone {
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    
+    .Sidebar h6 {
+        
+        margin: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+
+    .Sidebar{
+        width: 217px;
+    }
+
+    .Sidebaronenumber{
+        width: 217px;
+    }
+
+    .Sidebaronenumber h6 {
+        margin: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+
+    .Sidebaronenumber div{
+        list-style: none;
+        padding: 0;
+    }
+
+    .Sidebaronenumber div li a {
+        font-family: 'Poppins' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        /* identical to box height */
+        letter-spacing: 0.1em !important;
+        color: #D7DBFF !important;
+        padding-left: 3% !important;
+    }
+
+    .Sidebaronenumber div li svg{
+        fill: currentcolor !important;
+        width: 15px !important;
+    height: 15px !important
+    }
+    
+    
+    .Sidebar ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .Sidebar div li a {
+        font-family: 'Poppins' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        /* identical to box height */
+        letter-spacing: 0.1em !important;
+        color: #D7DBFF !important;
+        padding-left: 3% !important;
+    }
+    
+    .Sidebar1 h6 {
+       
+        font-family: 'Poppins' !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        letter-spacing: 0.1em !important;
+        color: #D7DBFF !important;
+        padding-left: 5% !important;
+        padding-top: 3%;
+    }
+
+
+    .Sidebar1{
+        width: 600px;
+        padding-top: 1%;
+    }
+
+    .Sidebarnew{
+        margin-bottom: 2%;
+    }
+    
+    .Sidebar1 span {
+        
+        font-family: 'Poppins';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: #D7DBFF;
+        padding-left: 5%;
+    }
+
+    .Sidebarspan{
+        padding-left: 7%;
+    }
+    
+    .SiteFooterend {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .SiteFooterend div img {
+        width: 21.88px;
+        height: 24.88px;
+        padding: 20px;
+    }
+    
+    .SiteFooterend p {
+        width: 497px;
+        height: 31.18px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        letter-spacing: 0.1em;
+        color: #D7DBFF;
+    }
+
+    .Sidebar div li svg{
+        fill: currentcolor;
+        width: 15px;
+    height: 15px
+    }
+
+    .Sidebar div li{
+        display: flex;
+        align-items: center;
+        padding-bottom:7%;
+    }
+
+    .Sidebaronenumber div li{
+        display: flex;
+        align-items: center;
+        padding-bottom: 9%;
+    }
+    
+    @media (max-width:1007px) {
+        .SiteFooterend p {
+            display: none;
+        }
+        .SiteFooterend{
+            justify-content: center;
+        }
+    }
+    
+    @media (max-width:1291px) {
+        .Sidebar {
+            padding-top: 5%;
+        }
+        .Sidebaronenumber{
+            padding-top: 5%;
+        }
+
+        
+
+        
+
+        
+    }

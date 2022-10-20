@@ -1,0 +1,108 @@
+.Requestcallservices {
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  max-width: 1440px;
+}
+
+.Requestcallservicesall h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #091156;
+}
+
+.Requestcallservicesall p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+
+  color: #8b8b8b;
+}
+
+.Requestcallservicesall p span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+
+  color: #091156;
+}
+
+.Requestcallservicesall {
+  width: 35%;
+}
+
+.Requestcallservicesinput {
+  width: 55%;
+}
+
+
+.Requestcallservicesinput div input {
+  background: #ffffff;
+  border: 1px solid #d9ddfe;
+  border-radius: 20px 0 0 20px;
+  width: 83%;
+  outline: none;
+  padding: 3%;
+}
+
+.Requestcallservicesinput div button {
+  width: 10%;
+  border-radius: 0 20px 20px 0;
+  height: 65px;
+}
+
+.Requestcallservicesinput p {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: 0.1em;
+
+  color: #8b8b8b;
+}
+
+.Elements {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+@media (max-width: 1270px) {
+  .Requestcallservices {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Requestcallservicesinput {
+    padding-top: 4%;
+    width: 100%;
+  }
+
+  .RequestInsertbutton {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    height: 100%;
+  }
+
+  .Requestcallservicesall {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .Requestcallservicesinput {
+    display: none;
+  }
+}

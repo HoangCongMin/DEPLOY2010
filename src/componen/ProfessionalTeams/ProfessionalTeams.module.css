@@ -1,0 +1,209 @@
+.Professional {
+   
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    
+    /* identical to box height, or 20px */
+    text-align: center;
+    color: #FF64AE;
+}
+
+.TheProfessionalexpert {
+    
+    
+    font-family: 'Poppins'!important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 36px !important;
+    margin-top: 0.5% ;
+    /* or 45px */
+    text-align: center;
+    color: #091156;
+}
+
+.Loremipsumdolor {
+    
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    text-align: center;
+    letter-spacing: 0.1em !important;
+    color: #8B8B8B;
+    
+}
+
+.ProfessionalTeams {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding-top:13% !important;
+    max-width: 1440px;
+    width: 80%;
+    margin: auto;
+}
+
+.Section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 9%;
+    flex-wrap: wrap;
+}
+
+.unsplash {
+    padding-top: 25% !important;
+}
+
+.BoxSection {
+    text-align: center;
+    border-radius: 42px;
+    width: 370px;
+}
+
+.BoxSectionMid {
+    box-shadow: 0px 25px 50px 10px #F7F7FF;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 42px;
+    width: 370px;
+}
+
+
+
+/* .BoxSection:hover {
+    box-shadow: 0px 25px 50px 25px #F7F7FF;
+} */
+
+.BoxSection h6 {
+    
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    
+    /* identical to box height, or 20px */
+    text-align: center;
+    color: #FF64AE;
+    margin-bottom: 0 !important;
+    padding-top: 8%;
+}
+
+.BoxSectionMid h6 {
+    
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    
+    /* identical to box height, or 20px */
+    text-align: center;
+    color: #FF64AE;
+    margin-bottom: 0 !important;
+    padding-top: 8%;
+
+}
+
+.BoxSection h5 {
+    
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+   
+    /* or 22px */
+    text-align: center;
+    color: #091156;
+    margin-bottom: 0 !important;
+    margin-top: 2% !important;
+}
+
+.BoxSectionMid h5 {
+    
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+   
+    /* or 22px */
+    text-align: center;
+    color: #091156;
+    margin-bottom: 0 !important;
+    margin-top: 2% !important;
+}
+
+.BoxSection p {
+    
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    margin-top: 5% !important;
+    text-align: center;
+    letter-spacing: 0.1em !important;
+    color: #8B8B8B;
+}
+
+.BoxSectionMid p {
+    
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    margin-top: 5% !important;
+    text-align: center;
+    letter-spacing: 0.1em !important;
+    color: #8B8B8B;
+}
+
+.icon {
+    display: flex;
+    margin-top: 50px !important;
+    justify-content: center;
+    margin-top: 8% !important;
+    margin-bottom: 20% !important;
+}
+
+
+
+@media (max-width:919px) {
+    .BoxSection {
+       margin: auto;
+    }
+}
+
+@media (max-width:1141px) {
+    .BoxSection {
+       margin: auto;
+       width: 100%;
+    }
+    .Section{
+        display: flex;
+        flex-direction: column;
+    }
+    .BoxSectionMid{
+        margin: auto;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:1387px) {
+    .BoxSection {
+       margin: auto;
+       width: 100%;
+    }
+    .Section{
+        display: flex;
+        flex-direction: column;
+    }
+    .BoxSectionMid{
+        margin: auto;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.MainSlider {
+    padding-top: 267px;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    width: 79%;
+}
+
+.MainSliderFrame{
+    width: 50%;
+}
+
+.Mainh1 {
+   
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 48px !important;
+    line-height: 125%;
+    /* or 60px */
+    color: #091156;
+    margin: 0;
+}
+
+.Mainp {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.1em !important;
+    color: #091156;
+    margin: 0;
+}
+
+.Frame {
+   width:98%;
+}
+
+.MoreDetails {
+    width: 200px;
+    height: 58.36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    background: #FF64AE;
+    box-shadow: 0px 17px 22px #FFEDF6;
+    border-radius: 50px;
+    margin-top: 28px;
+}
+
+/* .Clinic {
+    background-image: url(../../aces/Img/Slide\ Background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+} */
+
+.backfroundtop{
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left: 0;
+    width:85%;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 9rem;
+}
+
+.iconone {
+    width: 14.82px;
+    height: 3.09px;
+    background: #EEEEEE;
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    list-style: none;
+}
+
+.icontow {
+    width: 25.31px;
+    height: 8.15px;
+    background: #414880;
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    list-style: none;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.MainSliderone{
+    padding-bottom: 1.5%;
+    width: 49%;
+    padding-left: 2%;
+}
+
+@media (max-width:1025px) {
+    .Frame {
+        display: none;
+    }
+    .MainSliderone{
+        width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+    
+    .MainSlider {
+        width: 350px;
+        padding-left: 0;
+    }
+}
+

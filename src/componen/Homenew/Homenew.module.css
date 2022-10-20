@@ -1,0 +1,82 @@
+.homenewone{
+    background-image: url(../../aces/Img/Background\ Slider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 22%;
+}
+
+.homenewonetitle{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    max-width: 1440px;
+}
+
+.home{
+    width: 50%;
+}
+
+.home h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+color: #FFFFFF;
+
+}
+
+.home p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.1em;
+color: #D8DCFF;
+}
+
+.Details{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+border: 1px solid #FFFFFF;
+border-radius: 15px;
+color: #FFFFFF;
+background-color: transparent;
+}
+
+
+.Video{
+    display: flex;
+    align-items: center;
+    width: 29%;
+    margin: auto;
+}
+
+.Video p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+}
+
+@media (max-width:1270px){
+    .Video{
+        display: none;
+    }
+
+    .home{
+        width: 100%;
+    }
+}

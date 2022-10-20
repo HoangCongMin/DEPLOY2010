@@ -1,0 +1,127 @@
+.ContactUs {  
+    margin-top: 13%;
+    background-image: url(../../aces/Img/Background\ Bubble-1.png);
+    background-repeat: no-repeat;
+    
+}
+
+.ContactUsitem{
+    display: flex;
+    align-items: center;
+    width: 80% !important;
+    margin: auto;
+    justify-content: space-between;
+    max-width:1440px;
+}
+
+.ContactForm h3 {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    
+    /* identical to box height, or 20px */
+    color: #FF64AE;
+}
+
+.ContactForm{
+    width: 40%;
+}
+
+.ContactForm h4 {
+   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    
+    /* or 45px */
+    color: #091156;
+    margin: 0;
+}
+
+.ContactForm h6 {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    
+    letter-spacing: 0.1em;
+    color: #8B8B8B;
+    margin-top: 1%;
+}
+
+.Rectangle2 {
+    border-radius: 15px;
+    border: 1px solid #D9DDFE;
+    outline: none;
+   
+    margin-bottom: 8%;
+    padding: 4%;
+    width: 91%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+color: #C5C5C5;
+}
+
+.Rectangle1 {
+    border-radius: 15px !important;
+    padding: 4% !important;
+    border: 1px solid #D9DDFE !important;
+    width: 38% !important;
+    margin-bottom: 20px;
+    font-style: normal !important;
+font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 24px !important;
+letter-spacing: 0.1em !important;
+color: #C5C5C5 !important;
+}
+
+.NameInput {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    padding-bottom: 5%;
+}
+
+.Rectangle3 {
+    height: 150px;
+    border-radius: 15px;
+    border: 1px solid #D9DDFE;
+    width: 89%;
+    height: 239.47px;
+    padding: 5%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1em;
+
+color: #C5C5C5;
+
+}
+
+.SendMessage {
+    margin-top: 54px;
+    width: 50%;
+}
+
+
+
+@media (max-width:1020px) {
+    .ContactAnimations {
+        display: none !important;
+    }
+
+    .ContactForm{
+        width: 100% !important;
+    }
+}

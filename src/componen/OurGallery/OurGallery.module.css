@@ -1,0 +1,130 @@
+.OurGallery {
+  margin: auto;
+  width: 80%;
+  flex-wrap: wrap;
+  max-width: 1440px;
+}
+
+.OurGallery div h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  /* identical to box height, or 20px */
+  color: #ff64ae;
+}
+
+.OurGallery div h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  /* or 45px */
+  color: #091156;
+  width: 100%;
+}
+
+.OurGallery p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: #8b8b8b;
+}
+
+.OurGalleryimg img {
+  padding-top: 3%;
+}
+
+.OurGalleryimg {
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  max-width: 1440px;
+}
+
+.OurGalleryimg p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  letter-spacing: 0.1em;
+  color: #8b8b8b;
+  margin-top: 66px;
+}
+
+.OurGalleryimgp span {
+  color: #091156;
+}
+
+.BackgroundMask {
+  background-image: linear-gradient(180deg, #050e5991 0%, #050e5991 100%),
+    url(../../aces/Img/unsplash_eflLpWC1Geo.png);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.BackgroundMaskone {
+  width: 80%;
+  text-align: center;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.BackgroundMaskone p {
+  color: #cacaca;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #cacaca;
+}
+
+.BackgroundMask img {
+  width: 127px;
+  height: 127px;
+  margin-top: 41px;
+  margin-bottom: 18%;
+}
+
+.BackgroundMask h1 {
+  height: 51px !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 36px !important;
+  /* or 45px */
+  text-align: center;
+  color: #ffffff;
+  margin-top: 15%;
+}
+
+.OurGalleryimgp {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  width: 80%;
+  margin: auto !important;
+  letter-spacing: 0.1em !important;
+  color: #cacaca;
+  max-width: 1440px;
+}
+
+@media (max-width: 889px) {
+  .OurGalleryimg img {
+    margin: auto;
+  }
+}

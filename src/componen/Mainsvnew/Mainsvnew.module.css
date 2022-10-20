@@ -1,0 +1,242 @@
+.Mainsvnew h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #ff64ae;
+  margin: auto;
+}
+
+.Mainsvnew {
+  width: 80% !important;
+  margin: auto;
+  width: 1440px;
+}
+
+.Mainsvnew h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  margin: 0;
+  text-align: center;
+  color: #091156;
+}
+
+.Mainsvnew p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #8b8b8b;
+}
+
+.Mainsvnewone {
+  width: 70%;
+  margin: auto;
+  max-width: 1300px;
+  flex-wrap: wrap;
+}
+
+.Mainsvnewoneitem {
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 25px;
+  width: 28%;
+}
+
+.maiall {
+  width: 80%;
+  margin: auto;
+}
+
+.Mainsvnewoneitem:hover {
+  border: 1px solid #9ba2e0;
+}
+
+.Mainsvnewoneitem img {
+  width: 64px;
+  height: 64px;
+  padding-bottom: 3%;
+}
+
+.Mainsvnewoneitem h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #091156;
+  margin: 0;
+}
+
+.Mainsvnewoneitem p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+
+  color: #8b8b8b;
+}
+
+.Mainsvtitle {  
+  width: 80%;
+  margin: auto;
+}
+
+.Mainsvtitle h6 {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* or 17px */
+
+  color: #ff64ae;
+}
+
+.Mainsvtitle span {
+  color: #ff64ae;
+  padding-left: 13px;
+}
+
+.Wave {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 50%;
+}
+
+@media (max-width: 1281px) {
+  .Mainsvnewone {
+    flex-direction: column;
+  }
+
+  .Mainsvnewoneitem {
+    margin: auto;
+    margin-bottom: 3%;
+    width: 100%;
+  }
+}
+
+.backgrondMainsvnew {
+  background-image: url(../../aces/Img/why-choose-us.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.choosing {
+  width: 80%;
+  margin: auto;
+  max-width: 1440px;
+}
+
+.choosing h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #ffffff;
+}
+
+.choosing p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+
+  color: #d8dcff;
+}
+
+.trustedclinic {
+  width: 100%;
+  
+}
+
+.trustedclinictow {
+  width: 100%;
+}
+
+.trustedclinicone {
+  width: 45%;
+}
+
+.trust .content {
+  padding-left: 20px;
+}
+
+.content h1 {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 125%;
+
+  color: #ffffff;
+}
+
+.content .contenth5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  color: #ff9acb;
+  margin: 0;
+}
+
+.contentlove {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+
+  color: #d8dcff;
+}
+
+@media (max-width: 1150px) {
+  .Whychoosing {
+    display: none;
+  }
+
+  .trustedclinicone {
+    margin: auto;
+    width: 70%;
+  }
+}
+
+@media (max-width: 530px) {
+  .trustedclinicone {
+    width: 100%;
+  }
+
+  .trust img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .content h1 {
+    font-size: 30px;
+  }
+
+  .content h5 {
+    font-size: 10px;
+  }
+
+  .content .contenth5 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 413px) {
+  .trust img {
+    display: none;
+  }
+}

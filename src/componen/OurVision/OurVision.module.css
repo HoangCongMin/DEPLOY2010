@@ -1,0 +1,126 @@
+    .OurVision {
+        align-items: center;
+        width: 100%;
+    margin: auto;
+    
+    }
+
+
+    .Vision{
+        width: 80%;
+        max-width: 1440px;
+        margin: auto;
+    }
+    
+    /* .Vision {
+        background-image: url(../../aces/Img/Bubble\ BGFooter.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+    .backgrondour{
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        width: 100%;
+        height: 245%;
+    }
+    
+    .OurVisionh5 {
+        
+        font-family: 'Poppins' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        
+        /* identical to box height, or 20px */
+        color: #FF64AE;
+    }
+    
+    .OurVision h1 {
+       
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        /* or 45px */
+        color: #091156;
+    }
+    
+    .OurVision p {
+        
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        color: #8B8B8B;
+        
+    }
+    
+    .OurVision img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .Clients {
+        width: 80%;
+    margin: auto;
+    text-align: center;
+    }
+    
+    .Clients h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        /* or 45px */
+        text-align: center;
+        color: #091156;
+    }
+    
+    .Clients p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #8B8B8B;
+    }
+    
+    .LOGO {
+        
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    
+    }
+    
+    
+
+
+    @media (max-width:1191px) {
+        
+        .VisionimgoneOurVisionh5{
+            display: none ;
+        }
+        
+        .Visionimgone{
+           margin: auto;
+        }
+
+        .OurVisionh2{
+            display: none;
+        }
+
+        .OurVisionh11{
+            margin: auto;
+        }
+
+        .LOGO img{
+            margin: auto;
+        }
+    }
